@@ -3,7 +3,7 @@ import { ActivatedRoute } from '@angular/router';
 import { toSignal } from '@angular/core/rxjs-interop';
 import { map } from 'rxjs';
 import { GifService } from 'src/app/gifs/services/gifs.service';
-import { GifListComponent } from "../../gifs/components/gif-list/gif-list.component";
+import { GifListComponent } from "../../components/gif-list/gif-list.component";
 
 @Component({
   selector: 'gif-history-page',
