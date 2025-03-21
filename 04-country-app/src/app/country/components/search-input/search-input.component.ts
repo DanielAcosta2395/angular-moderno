@@ -1,0 +1,13 @@
+import { Component, input, output } from '@angular/core';
+
+@Component({
+  selector: 'search-input',
+  standalone: true,
+  imports: [],
+  templateUrl: './search-input.component.html',
+})
+export class SearchInputComponent {
+  placeholder = input<string>('Search');
+
+  value = output<string>();
+}
